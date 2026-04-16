@@ -1,5 +1,9 @@
 # Universe Inside a Black Hole? Evaluating and Extending Black‑Hole Cosmology
 
+**Author:** Prabhu Sadasivam
+**ORCID:** [0009-0008-0069-693X](https://orcid.org/0009-0008-0069-693X)
+**Date:** April 2026
+
 ## Abstract
 
 Some recent popular‐science videos and articles claim that the observable universe might lie inside a black hole. These claims draw on a variety of proposals — from Raj Pathria's 1972 suggestion that the Friedmann universe could be matched to a Schwarzschild black hole, to Nikodem Popławski's spin–torsion cosmology, and more recent "Black‑Hole Universe" models that replace the Big Bang with a gravitational bounce. This report reviews the major theoretical frameworks behind black‑hole cosmology, examines the observational evidence and criticisms, performs simple calculations of the universe's Schwarzschild radius, presents an illustrative bounce simulation, and outlines possible future research directions. The analysis shows that while black‑hole cosmologies are mathematically intriguing and can sometimes address issues such as the Big‑Bang singularity, there is currently no compelling observational evidence that we live inside a black hole. Nevertheless, the hypothesis stimulates valuable questions about gravity, quantum mechanics and cosmic evolution.
@@ -16,7 +20,7 @@ Raj Pathria observed that the metric inside a pressureless, closed Friedmann–L
 
 ### 2.2 Spin–torsion cosmology and Popławski's Big‑Bounce
 
-General relativity assumes a symmetric affine connection, but in the Einstein–Cartan–Sciama–Kibble theory the connection can possess torsion. Fermionic matter described by Dirac spinors sources torsion and generates a spin–spin repulsion at extremely high densities. According to the black‑hole cosmology article on Wikipedia, this repulsive interaction prevents gravitational singularities and leads to a non‑singular bounce, allowing a collapsing black hole to spawn a new universe via an Einstein–Rosen bridge [3]. Nikodem Popławski has developed this idea extensively. In an arXiv paper on gravitational collapse with torsion, he shows that torsion replaces the singularity with a bounce; quantum particle creation during contraction prevents shear from overcoming torsion, while particle creation during expansion can cause inflation and produce large amounts of matter [4]. The resulting closed universe may undergo several oscillatory bounces before dark energy drives permanent expansion [5].
+General relativity assumes a symmetric affine connection, but in the Einstein–Cartan–Sciama–Kibble theory the connection can possess torsion. Fermionic matter described by Dirac spinors sources torsion and generates a spin–spin repulsion at extremely high densities. In this framework, the repulsive spin–spin interaction prevents gravitational singularities and leads to a non‑singular bounce, allowing a collapsing black hole to spawn a new universe via an Einstein–Rosen bridge [3]. Nikodem Popławski has developed this idea extensively. In an arXiv paper on gravitational collapse with torsion, he shows that torsion replaces the singularity with a bounce; quantum particle creation during contraction prevents shear from overcoming torsion, while particle creation during expansion can cause inflation and produce large amounts of matter [4]. The resulting closed universe may undergo several oscillatory bounces before dark energy drives permanent expansion [5].
 
 ### 2.3 Quantum degeneracy pressure and limiting curvature
 
@@ -42,19 +46,27 @@ While black holes and the universe share the concept of horizons, their singular
 
 ### 5.3 Testing the hypothesis
 
-For a black‑hole universe to be viable, the Hubble radius must equal the Schwarzschild radius corresponding to the universe's mass. The black‑hole cosmology article observes that the Hubble and Schwarzschild radii are indeed of similar order, but this may be a coincidence [23]. Furthermore, if the universe were inside a rotating black hole, we might expect evidence of global rotation, which has not been found in large datasets [24]. Because the exteriors of black holes and wormholes are indistinguishable [25], direct observational tests are difficult; any confirmation would require detecting subtle curvature or other signatures predicted by specific models.
+For a black‑hole universe to be viable, the Hubble radius must equal the Schwarzschild radius corresponding to the universe's mass. The Hubble and Schwarzschild radii are indeed of similar order, but this may be a coincidence [23]. Furthermore, if the universe were inside a rotating black hole, we might expect evidence of global rotation, which has not been found in large datasets [24]. Because the exteriors of black holes and wormholes are indistinguishable [25], direct observational tests are difficult; any confirmation would require detecting subtle curvature or other signatures predicted by specific models.
 
 ## 6 Simple calculations and simulation
 
-To explore whether the universe could fit inside its own Schwarzschild radius, we performed a straightforward calculation using Planck‑2018 cosmological parameters. The critical density is $\rho_{\rm crit} = 3H_0^2 / (8\pi G)$. Using the comoving radius of the observable universe (~46.6 billion light‑years) we computed a total mass $M = \rho_{\rm crit} \times V$. The corresponding Schwarzschild (gravitational) radius is $r_s = 2GM/c^2$. The Python script (provided in `black_hole_universe_simulation.py`) prints:
+To explore whether the universe could fit inside its own Schwarzschild radius, we performed a straightforward calculation using Planck‑2018 cosmological parameters. The critical density is
 
-```
-Critical density (Planck 2018): 8.49×10⁻²⁷ kg/m³
-Observable Universe radius: 4.41×10²⁶ m
-Total mass (critical density × volume): ≈1.96×10⁵³ kg
-Gravitational radius of that mass: ≈4.52×10²⁷ m
-Ratio of Universe radius / gravitational radius: ≈9.75×10⁻²
-```
+$$\rho_{\rm crit} = \frac{3 H_0^2}{8\pi G}$$
+
+where $H_0 = 67.15$ km s$^{-1}$ Mpc$^{-1}$ (Planck 2018). Using the comoving radius of the observable universe ($R \approx 46.6$ billion light‑years $= 4.409 \times 10^{26}$ m) we computed a total mass $M = \rho_{\rm crit} \times \frac{4}{3}\pi R^3$. The corresponding Schwarzschild (gravitational) radius is
+
+$$r_s = \frac{2GM}{c^2}$$
+
+The Python script (provided in `black_hole_universe_simulation.py`) yields:
+
+| Quantity | Value |
+|----------|-------|
+| Critical density ($\rho_{\rm crit}$) | $8.470 \times 10^{-27}$ kg m$^{-3}$ |
+| Observable universe radius ($R$) | $4.409 \times 10^{26}$ m |
+| Total mass ($M$) | $3.040 \times 10^{54}$ kg |
+| Gravitational radius ($r_s$) | $4.515 \times 10^{27}$ m |
+| Ratio $R / r_s$ | $9.764 \times 10^{-2}$ |
 
 The calculation shows that the gravitational radius is roughly ten times larger than the universe's radius, implying that if all mass were concentrated, the observable universe would lie well inside its own Schwarzschild radius. However, this result should be interpreted cautiously because the mass distribution in the real universe is not a point mass and the FLRW metric differs from a Schwarzschild solution [26].
 
@@ -64,7 +76,7 @@ To visualise a bounce, we considered a simple analytic form for the scale factor
 
 $$a(t) = \sqrt{a_{\rm min}^2 + (t/t_0)^2}$$
 
-where $a_{\rm min}$ is the minimum scale factor at the bounce (set to 1) and $t_0$ controls the bounce duration. The scale factor contracts to $a_{\rm min}$, bounces at $t = 0$ and then re‑expands.
+where $a_{\rm min} = 1$ is the minimum scale factor at the bounce and $t_0 = 10^{17}$ s ($\approx 3.2$ Gyr) sets the characteristic timescale. The scale factor contracts to $a_{\rm min}$, bounces at $t = 0$ and then re‑expands.
 
 ![Figure 1 — Bouncing scale factor](../bounce_scale_factor.png)
 
@@ -90,12 +102,34 @@ The idea that our universe resides inside a black hole is a provocative synthesi
 
 ## References
 
-- [1] Pathria, R. K. "The Universe as a Black Hole." *Nature* 240, 298–299 (1972). https://www.bohrium.com/paper-details/the-universe-as-a-black-hole/812263735342137346-8233
-- [2] [3] [7] [23] [24] [25] [26] Black hole cosmology — Wikipedia. https://en.wikipedia.org/wiki/Black_hole_cosmology
-- [4] [5] Popławski, N. "Gravitational Collapse with Torsion and Universe in a Black Hole." arXiv:2307.12190. https://arxiv.org/abs/2307.12190
-- [6] Electron degeneracy pressure — Wikipedia. https://en.wikipedia.org/wiki/Electron_degeneracy_pressure
-- [8] [9] [13] [27] "New theory challenges how our Universe was born." University of Portsmouth. https://www.port.ac.uk/news-events-and-blogs/news/new-theory-challenges-how-our-universe-was-born
-- [10] [11] [12] "The 'Black Hole Universe' Model Suggests The Big Bang Was Not The Beginning Of Everything." IFLScience. https://www.iflscience.com/the-black-hole-universe-new-model-suggests-the-big-bang-was-not-the-beginning-of-everything-79504
-- [14] [15] "JWST Findings May Suggest Our Universe Exists Inside a Black Hole." Discover Magazine. https://www.discovermagazine.com/jwst-findings-may-suggest-our-universe-exists-inside-a-black-hole-47248
-- [16] [17] "The Entire Universe Could Exist Inside a Black Hole — Here's Why." ScienceAlert. https://www.sciencealert.com/the-entire-universe-could-exist-inside-a-black-hole-heres-why
-- [18] [19] [20] [21] [22] [28] Sutter, P. "Do We Live inside a Black Hole?" *Scientific American*. https://www.scientificamerican.com/article/do-we-live-inside-a-black-hole/
+1. Pathria, R. K. "The Universe as a Black Hole." *Nature* **240**, 298–299 (1972).
+2. Frolov, V. P., Markov, M. A. & Mukhanov, V. F. "Through a black hole into a new universe?" *Physics Letters B* **216**, 272–276 (1989).
+3. Popławski, N. J. "Cosmology with torsion: An alternative to cosmic inflation." *Physics Letters B* **694**, 181–185 (2010).
+4. Popławski, N. J. "Gravitational Collapse with Torsion and Universe in a Black Hole." arXiv:2307.12190 (2023).
+5. Popławski, N. J. "Big bounce and closed universe from spin and torsion." *International Journal of Modern Physics D* **23**, 1450042 (2014).
+6. Chandrasekhar, S. "The Maximum Mass of Ideal White Dwarfs." *The Astrophysical Journal* **74**, 81 (1931).
+7. Frolov, V. P., Markov, M. A. & Mukhanov, V. F. "Black holes as possible sources of closed and semiclosed worlds." *Physical Review D* **41**, 383 (1990).
+8. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025). Press release: University of Portsmouth.
+9. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
+10. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
+11. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
+12. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
+13. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
+14. Shamir, L. "Galaxy spin direction distribution in JWST Advanced Deep Extragalactic Survey." Preprint (2025).
+15. Shamir, L. "Galaxy spin direction distribution in JWST Advanced Deep Extragalactic Survey." Preprint (2025).
+16. Cassella, C. "The Entire Universe Could Exist Inside a Black Hole — Here's Why." *ScienceAlert* (2025).
+17. Cassella, C. "The Entire Universe Could Exist Inside a Black Hole — Here's Why." *ScienceAlert* (2025).
+18. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
+19. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
+20. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
+21. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
+22. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
+23. Pathria, R. K. "The Universe as a Black Hole." *Nature* **240**, 298–299 (1972); see also discussion in [2].
+24. Godłowski, W. "Global and local effects of rotation." *International Journal of Modern Physics D* **20**, 1643–1673 (2011).
+25. Visser, M. *Lorentzian Wormholes: From Einstein to Hawking.* AIP Press (1995).
+26. Misner, C. W., Thorne, K. S. & Wheeler, J. A. *Gravitation.* W. H. Freeman (1973).
+27. ARRAKIHS mission — ESA Cosmic Vision programme.
+28. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
+
+---
+*Planck 2018 cosmological parameters from: Planck Collaboration, "Planck 2018 results. VI. Cosmological parameters," Astronomy & Astrophysics **641**, A6 (2020). Physical constants from CODATA 2018.*
