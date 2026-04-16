@@ -38,10 +38,10 @@ universe-inside-blackhole/
 ├── LICENSE                                # MIT License
 ├── requirements.txt                       # Python dependencies
 ├── black_hole_universe_simulation.py      # Main simulation script
-├── docs/
-│   └── getting-started.md                 # Setup and usage guide
-├── Research on black holes.docx           # Background research document
-└── Research on black holes.pdf            # Background research (PDF)
+└── docs/
+    ├── getting-started.md                 # Setup and usage guide
+    ├── Research on black holes.docx       # Background research document
+    └── Research on black holes.pdf        # Background research (PDF)
 ```
 
 ## Output
