@@ -40,9 +40,7 @@ universe-inside-blackhole/
 ├── black_hole_universe_simulation.py      # Main simulation script
 └── docs/
     ├── getting-started.md                 # Setup and usage guide
-    ├── Research on black holes.md         # Background research (Markdown)
-    ├── Research on black holes.docx       # Background research document
-    └── Research on black holes.pdf        # Background research (PDF)
+    └── Research on black holes.md         # Background research (Markdown)
 ```
 
 ## Output
