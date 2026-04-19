@@ -1,4 +1,5 @@
-# Universe Inside a Black Hole — Bouncing Cosmology Simulation
+# Is the Observable Universe Contained Within Its Own Schwarzschild Radius?
+## A Comparative Review of Black-Hole Cosmology and Bouncing Scale-Factor Models
 
 A numerical simulation exploring the hypothesis that our observable universe resides inside a black hole, using Planck 2018 cosmological parameters and a bouncing scale factor model.
 
