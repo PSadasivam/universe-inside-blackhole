@@ -28,25 +28,25 @@ Another mechanism for a bounce arises from quantum degeneracy pressure. The Paul
 
 ## 3 The 2025 "Black‑Hole Universe" model
 
-In June 2025, an international team led by Enrique Gaztañaga published a paper in *Physical Review D* proposing a "Black‑Hole Universe" model. A press release from the University of Portsmouth summarises the key points: instead of the universe beginning from a singularity, the model considers gravitational collapse of an overdense region in a parent universe, forming a massive black hole [8]. Quantum‑mechanical effects provide a pressure that halts the collapse at extremely high density and triggers a bounce. The matter rebounding from the bounce expands into a new universe remarkably similar to our own; in Gaztañaga's words, the collapse "does not have to end in a singularity" [9]. The bounce occurs within general relativity combined with quantum mechanics — no speculative fields are invoked [10] — and the rebound naturally produces two phases of accelerated expansion, corresponding to cosmic inflation and dark‑energy domination [11]. A striking prediction is that the resulting universe should have a small positive spatial curvature; the model therefore suggests that future surveys might detect slight curvature [12]. The authors also note that their model could explain the origin of supermassive black holes and provide new perspectives on dark matter and galaxy formation [13].
+In June 2025, an international team led by Enrique Gaztañaga published a paper in *Physical Review D* proposing a "Black‑Hole Universe" model. A press release from the University of Portsmouth summarises the key points: instead of the universe beginning from a singularity, the model considers gravitational collapse of an overdense region in a parent universe, forming a massive black hole [8]. Quantum‑mechanical effects provide a pressure that halts the collapse at extremely high density and triggers a bounce. The matter rebounding from the bounce expands into a new universe remarkably similar to our own; in Gaztañaga's words, the collapse "does not have to end in a singularity" [8]. The bounce occurs within general relativity combined with quantum mechanics — no speculative fields are invoked [8] — and the rebound naturally produces two phases of accelerated expansion, corresponding to cosmic inflation and dark‑energy domination [8]. A striking prediction is that the resulting universe should have a small positive spatial curvature; the model therefore suggests that future surveys might detect slight curvature [8]. The authors also note that their model could explain the origin of supermassive black holes and provide new perspectives on dark matter and galaxy formation [8].
 
 ## 4 Observational hints: galaxy‑spin asymmetry and rotation
 
-Proponents of black‑hole cosmology sometimes point to potential observational signatures. One such hint arises from a rotation asymmetry in galaxy spin directions. Using data from the JWST Advanced Deep Extragalactic Survey (JADES), Lior Shamir analysed 263 spiral galaxies and found that 105 rotated counter‑clockwise and 158 rotated clockwise [14]. In a random and isotropic universe, roughly half the galaxies should spin each way; the observed excess of clockwise rotations led Shamir to suggest that the universe might be rotating [15]. A ScienceAlert summary notes that one explanation for the asymmetry is that the universe was born rotating — a scenario consistent with black‑hole cosmology — though it also offers the mundane possibility that the effect arises from the rotation of our home galaxy or measurement biases [16]. The same article emphasises that the sample size is small (263 galaxies), and rotation estimates are tricky [17].
+Proponents of black‑hole cosmology sometimes point to potential observational signatures. One such hint arises from a rotation asymmetry in galaxy spin directions. Using data from the JWST Advanced Deep Extragalactic Survey (JADES), Lior Shamir analysed 263 spiral galaxies and found that 105 rotated counter‑clockwise and 158 rotated clockwise [9]. In a random and isotropic universe, roughly half the galaxies should spin each way; the observed excess of clockwise rotations led Shamir to suggest that the universe might be rotating [9]. A ScienceAlert summary notes that one explanation for the asymmetry is that the universe was born rotating — a scenario consistent with black‑hole cosmology — though it also offers the mundane possibility that the effect arises from the rotation of our home galaxy or measurement biases [10]. The same article emphasises that the sample size is small (263 galaxies), and rotation estimates are tricky [10].
 
 ## 5 Criticisms and challenges
 
 ### 5.1 Lack of compelling evidence
 
-Mainstream cosmologists remain sceptical. *Scientific American* columnist Paul Sutter points out that the supposed galaxy‑spin signal relies on a tiny fraction of the billions of galaxies observed. He emphasises that large surveys containing millions of galaxies show no evidence for a rotating universe, and any detected asymmetries have been traced to selection effects [18]. Shamir's analysis used stringent filters (face‑on spirals near the Milky Way's rotation pole), which can easily introduce bias [19]. A conclusion based on 263 galaxies, Sutter notes, cannot overturn cosmological models built on hundreds of millions of observations [20].
+Mainstream cosmologists remain sceptical. *Scientific American* columnist Paul Sutter points out that the supposed galaxy‑spin signal relies on a tiny fraction of the billions of galaxies observed. He emphasises that large surveys containing millions of galaxies show no evidence for a rotating universe, and any detected asymmetries have been traced to selection effects [11]. Shamir's analysis used stringent filters (face‑on spirals near the Milky Way's rotation pole), which can easily introduce bias [11]. A conclusion based on 263 galaxies, Sutter notes, cannot overturn cosmological models built on hundreds of millions of observations [11].
 
 ### 5.2 Differences between black holes and the universe
 
-While black holes and the universe share the concept of horizons, their singularities differ. In a black hole the singularity is spatial — a point deep inside the hole — whereas in cosmology the Big Bang singularity is a moment in time. Sutter emphasises that inside a black hole everything falls inward toward the singularity, whereas our universe is expanding [21]. He also notes that one can only make a black hole resemble the universe by substantially modifying general relativity, for example with torsion or white‑hole solutions [22], which themselves may be unstable or speculative.
+While black holes and the universe share the concept of horizons, their singularities differ. In a black hole the singularity is spatial — a point deep inside the hole — whereas in cosmology the Big Bang singularity is a moment in time. Sutter emphasises that inside a black hole everything falls inward toward the singularity, whereas our universe is expanding [11]. He also notes that one can only make a black hole resemble the universe by substantially modifying general relativity, for example with torsion or white‑hole solutions [11], which themselves may be unstable or speculative.
 
 ### 5.3 Testing the hypothesis
 
-For a black‑hole universe to be viable, the Hubble radius must equal the Schwarzschild radius corresponding to the universe's mass. The Hubble and Schwarzschild radii are indeed of similar order, but this may be a coincidence [23]. Furthermore, if the universe were inside a rotating black hole, we might expect evidence of global rotation, which has not been found in large datasets [24]. Because the exteriors of black holes and wormholes are indistinguishable [25], direct observational tests are difficult; any confirmation would require detecting subtle curvature or other signatures predicted by specific models.
+For a black‑hole universe to be viable, the Hubble radius must equal the Schwarzschild radius corresponding to the universe's mass. The Hubble and Schwarzschild radii are indeed of similar order, but this may be a coincidence [1]. Furthermore, if the universe were inside a rotating black hole, we might expect evidence of global rotation, which has not been found in large datasets [12]. Because the exteriors of black holes and wormholes are indistinguishable [13], direct observational tests are difficult; any confirmation would require detecting subtle curvature or other signatures predicted by specific models.
 
 ## 6 Simple calculations and simulation
 
@@ -68,7 +68,7 @@ The Python script (provided in `black_hole_universe_simulation.py`) yields:
 | Gravitational radius ($r_s$) | $4.515 \times 10^{27}$ m |
 | Ratio $R / r_s$ | $9.764 \times 10^{-2}$ |
 
-The calculation shows that the gravitational radius is roughly ten times larger than the universe's radius, implying that if all mass were concentrated, the observable universe would lie well inside its own Schwarzschild radius. However, this result should be interpreted cautiously because the mass distribution in the real universe is not a point mass and the FLRW metric differs from a Schwarzschild solution [26].
+The calculation shows that the gravitational radius is roughly ten times larger than the universe's radius, implying that if all mass were concentrated, the observable universe would lie well inside its own Schwarzschild radius. However, this result should be interpreted cautiously because the mass distribution in the real universe is not a point mass and the FLRW metric differs from a Schwarzschild solution [14].
 
 ### 6.1 Illustrative bouncing scale factor
 
@@ -86,19 +86,19 @@ where $a_{\rm min} = 1$ is the minimum scale factor at the bounce and $t_0 = 10^
 
 Although existing black‑hole cosmology models are speculative, they inspire new research directions. We outline several avenues for further investigation:
 
-**Spin–torsion and degeneracy synergy.** The Einstein–Cartan theory shows how spin–spin repulsion can avoid singularities [3], while the Black‑Hole Universe model uses degeneracy pressure and quantum effects [9]. A unified model might treat fermionic spin and quantum degeneracy within a single framework to derive a bounce with realistic matter content. Such a model should solve the coupled Friedmann–Cartan equations numerically and predict precise curvature and relic abundances.
+**Spin–torsion and degeneracy synergy.** The Einstein–Cartan theory shows how spin–spin repulsion can avoid singularities [3], while the Black‑Hole Universe model uses degeneracy pressure and quantum effects [8]. A unified model might treat fermionic spin and quantum degeneracy within a single framework to derive a bounce with realistic matter content. Such a model should solve the coupled Friedmann–Cartan equations numerically and predict precise curvature and relic abundances.
 
 **Rotating black‑hole interiors.** Most astrophysical black holes rotate; if our universe formed inside a spinning black hole, the interior spacetime would be anisotropic and might imprint a subtle rotation on cosmic structures. A new theoretical study could extend Kerr–de Sitter metrics to include torsion and bounce physics, and derive observable signatures such as vorticity in the cosmic microwave background or correlations in galaxy angular momenta.
 
 **Particle production and dark sector.** Popławski's model suggests that particle creation during a bounce can mimic cosmic inflation and produce large amounts of matter [4]. This mechanism could be explored as a source of dark matter. Simulations should track particle production during multiple bounces and confront the resulting matter–radiation ratios with observations.
 
-**Curvature measurements.** The Black‑Hole Universe model predicts a small positive spatial curvature [12]. Upcoming missions such as ARRAKIHS aim to detect ultra‑low‑surface brightness features and could constrain curvature [27]. Researchers can design statistical analyses combining cosmic microwave background data, baryon acoustic oscillations and weak lensing to search for the slight curvature signature.
+**Curvature measurements.** The Black‑Hole Universe model predicts a small positive spatial curvature [8]. Upcoming missions such as ARRAKIHS aim to detect ultra‑low‑surface brightness features and could constrain curvature [15]. Researchers can design statistical analyses combining cosmic microwave background data, baryon acoustic oscillations and weak lensing to search for the slight curvature signature.
 
-**Comprehensive galaxy‑rotation surveys.** To test the rotation hypothesis, one must analyse millions of galaxies across multiple surveys and control for selection biases. Only then can we determine whether the spin asymmetry persists and whether it correlates with large‑scale structures. A rotating universe would have profound consequences for black‑hole cosmology, but current evidence is unconvincing [28].
+**Comprehensive galaxy‑rotation surveys.** To test the rotation hypothesis, one must analyse millions of galaxies across multiple surveys and control for selection biases. Only then can we determine whether the spin asymmetry persists and whether it correlates with large‑scale structures. A rotating universe would have profound consequences for black‑hole cosmology, but current evidence is unconvincing [11].
 
 ## 8 Conclusions
 
-The idea that our universe resides inside a black hole is a provocative synthesis of general relativity and quantum mechanics. Historical models like Pathria's closed universe and modern spin–torsion and degeneracy‑pressure bounces demonstrate that mathematics allows a collapsing region to rebound. The 2025 Black‑Hole Universe model elegantly replaces the Big Bang singularity with a gravitational bounce and predicts slight spatial curvature, while Popławski's spin–torsion cosmology provides a mechanism for a bounce and cosmic inflation [3][4]. However, observational evidence remains weak; the galaxy‑spin asymmetry relies on a small sample and can be explained by biases [18]. More importantly, black‑hole interiors differ from our expanding universe, and no data currently require a black‑hole cosmology. Thus, while the hypothesis is worth exploring, it should be approached with critical scrutiny. The proposed research directions aim to refine these models and identify testable predictions that could either support or refute the notion that we live inside a black hole.
+The idea that our universe resides inside a black hole is a provocative synthesis of general relativity and quantum mechanics. Historical models like Pathria's closed universe and modern spin–torsion and degeneracy‑pressure bounces demonstrate that mathematics allows a collapsing region to rebound. The 2025 Black‑Hole Universe model elegantly replaces the Big Bang singularity with a gravitational bounce and predicts slight spatial curvature, while Popławski's spin–torsion cosmology provides a mechanism for a bounce and cosmic inflation [3][4]. However, observational evidence remains weak; the galaxy‑spin asymmetry relies on a small sample and can be explained by biases [11]. More importantly, black‑hole interiors differ from our expanding universe, and no data currently require a black‑hole cosmology. Thus, while the hypothesis is worth exploring, it should be approached with critical scrutiny. The proposed research directions aim to refine these models and identify testable predictions that could either support or refute the notion that we live inside a black hole.
 
 ## References
 
@@ -110,26 +110,13 @@ The idea that our universe resides inside a black hole is a provocative synthesi
 6. Chandrasekhar, S. "The Maximum Mass of Ideal White Dwarfs." *The Astrophysical Journal* **74**, 81 (1931).
 7. Frolov, V. P., Markov, M. A. & Mukhanov, V. F. "Black holes as possible sources of closed and semiclosed worlds." *Physical Review D* **41**, 383 (1990).
 8. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025). Press release: University of Portsmouth.
-9. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
-10. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
-11. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
-12. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
-13. Gaztañaga, E. et al. "The Black Hole Universe model." *Physical Review D* (2025).
-14. Shamir, L. "Galaxy spin direction distribution in JWST Advanced Deep Extragalactic Survey." Preprint (2025).
-15. Shamir, L. "Galaxy spin direction distribution in JWST Advanced Deep Extragalactic Survey." Preprint (2025).
-16. Cassella, C. "The Entire Universe Could Exist Inside a Black Hole — Here's Why." *ScienceAlert* (2025).
-17. Cassella, C. "The Entire Universe Could Exist Inside a Black Hole — Here's Why." *ScienceAlert* (2025).
-18. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
-19. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
-20. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
-21. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
-22. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
-23. Pathria, R. K. "The Universe as a Black Hole." *Nature* **240**, 298–299 (1972); see also discussion in [2].
-24. Godłowski, W. "Global and local effects of rotation." *International Journal of Modern Physics D* **20**, 1643–1673 (2011).
-25. Visser, M. *Lorentzian Wormholes: From Einstein to Hawking.* AIP Press (1995).
-26. Misner, C. W., Thorne, K. S. & Wheeler, J. A. *Gravitation.* W. H. Freeman (1973).
-27. ARRAKIHS mission — ESA Cosmic Vision programme.
-28. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
+9. Shamir, L. "Galaxy spin direction distribution in JWST Advanced Deep Extragalactic Survey." Preprint (2025).
+10. Cassella, C. "The Entire Universe Could Exist Inside a Black Hole — Here's Why." *ScienceAlert* (2025).
+11. Sutter, P. M. "Do We Live inside a Black Hole?" *Scientific American* (2025).
+12. Godłowski, W. "Global and local effects of rotation." *International Journal of Modern Physics D* **20**, 1643–1673 (2011).
+13. Visser, M. *Lorentzian Wormholes: From Einstein to Hawking.* AIP Press (1995).
+14. Misner, C. W., Thorne, K. S. & Wheeler, J. A. *Gravitation.* W. H. Freeman (1973).
+15. ARRAKIHS mission — ESA Cosmic Vision programme.
 
 ---
 *Planck 2018 cosmological parameters from: Planck Collaboration, "Planck 2018 results. VI. Cosmological parameters," Astronomy & Astrophysics **641**, A6 (2020). Physical constants from CODATA 2018.*
